@@ -66,7 +66,7 @@ Authors: William Holtz, Gwen Hardwick, Moses Solomon
      It should be noted that when creating an array, one must fulfill the following
  conditions: 1.) There is exactly one start and end tile and 2.) there must be a valid 
  path from the start to the end. Additionally, we are aware of problems with our
- annealing algorithm. Notably, the algorithm has a tendency to fail when the input array
- is especially sporadic. Finally, we do not claim that the paths discovered by our
- algorithms are ideal. Rather, they are implemented to display the differences and
- shortcomings of one another.
+ annealing algorithm. Notably, is neither technically an anealing algorithm, and it has
+ a tendency to fail on sporadic or randomly generated arrays. Finally, we do not claim 
+ that the paths discovered by our algorithms are ideal. Rather, they are implemented to 
+ display the differences and shortcomings of one another.
